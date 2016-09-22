@@ -1,6 +1,6 @@
 ﻿namespace CTime
 {
-    partial class Form1
+    partial class Timer
     {
         /// <summary>
         /// Required designer variable.

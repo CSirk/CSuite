@@ -1,1 +1,2 @@
 c:\users\cody.x120e\documents\visual studio 2015\Projects\CSuite\CTime\bin\Debug\CTime.exe.config
+C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\bin\Debug\CTime.exe.config
