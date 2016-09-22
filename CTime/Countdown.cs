@@ -12,9 +12,15 @@ namespace CTime
 {
     public partial class Countdown : Form
     {
+
         public Countdown()
         {
             InitializeComponent();
+        }
+
+        private void startButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

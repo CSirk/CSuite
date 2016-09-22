@@ -1,2 +1,11 @@
 c:\users\cody.x120e\documents\visual studio 2015\Projects\CSuite\CTime\bin\Debug\CTime.exe.config
 C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\bin\Debug\CTime.exe.config
+C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\bin\Debug\CTime.exe
+C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\bin\Debug\CTime.pdb
+C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\CTime.csprojResolveAssemblyReference.cache
+C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\CTime.Countdown.resources
+C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\CTime.Properties.Resources.resources
+C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\CTime.Stopwatch.resources
+C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\CTime.csproj.GenerateResource.Cache
+C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\CTime.exe
+C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\CTime.pdb
