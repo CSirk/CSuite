@@ -81,6 +81,9 @@
     <EmbeddedResource Include="Stopwatch.resx">
       <DependentUpon>Stopwatch.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Timer.resx">
+      <DependentUpon>Timer.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

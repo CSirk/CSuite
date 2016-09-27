@@ -9,3 +9,4 @@ C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\C
 C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\CTime.csproj.GenerateResource.Cache
 C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\CTime.exe
 C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\CTime.pdb
+C:\Users\Cody.X120e\Dropbox\Programming\Projects\C#\Git\CSuite\CTime\obj\Debug\CTime.Timer.resources
