@@ -82,8 +82,6 @@ namespace CTime
                 var result = this.FindForm();
                 var processId = System.Diagnostics.Process.GetCurrentProcess();
 
-
-
                 var process = System.Diagnostics.Process.GetCurrentProcess();
                 IntPtr pointer = process.MainWindowHandle;
                 SetForegroundWindow(pointer);
@@ -102,7 +100,6 @@ namespace CTime
                         hoursColor = Color.Red;
                         minutesColor = Color.Blue;
                         secondsColor = Color.Blue;
-
                     }
                     else
                     {
