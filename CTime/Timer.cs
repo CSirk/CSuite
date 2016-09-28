@@ -16,7 +16,6 @@ namespace CTime
         [DllImport("user32.dll")]
         static extern bool SetForegroundWindow(IntPtr hWnd);
 
-
         public static int hours, minutes, seconds, incrementProgressBarCounter;
         public static double numberOfSecondsForIncrementProgressBar;
         public static Color hoursColor, minutesColor, secondsColor;
