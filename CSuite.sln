@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CBase", "CBase\CBase.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFit", "CFit\CFit.csproj", "{EDF9D11C-81DF-4758-A79E-4665F0F8E1A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSuite", "CSuite\CSuite.csproj", "{5EF5D58B-D536-4437-B163-CAA3E1688C6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EDF9D11C-81DF-4758-A79E-4665F0F8E1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDF9D11C-81DF-4758-A79E-4665F0F8E1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDF9D11C-81DF-4758-A79E-4665F0F8E1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF5D58B-D536-4437-B163-CAA3E1688C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF5D58B-D536-4437-B163-CAA3E1688C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF5D58B-D536-4437-B163-CAA3E1688C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF5D58B-D536-4437-B163-CAA3E1688C6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
