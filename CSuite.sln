@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNote", "CNote\CNote.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CBase", "CBase\CBase.csproj", "{0326A318-E9C7-4609-B9A3-46921E82C201}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFit", "CFit\CFit.csproj", "{EDF9D11C-81DF-4758-A79E-4665F0F8E1A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0326A318-E9C7-4609-B9A3-46921E82C201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0326A318-E9C7-4609-B9A3-46921E82C201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0326A318-E9C7-4609-B9A3-46921E82C201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF9D11C-81DF-4758-A79E-4665F0F8E1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF9D11C-81DF-4758-A79E-4665F0F8E1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF9D11C-81DF-4758-A79E-4665F0F8E1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF9D11C-81DF-4758-A79E-4665F0F8E1A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

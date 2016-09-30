@@ -185,6 +185,7 @@
             this.startButton.TabIndex = 23;
             this.startButton.Text = "Start";
             this.startButton.UseVisualStyleBackColor = false;
+            this.startButton.Click += new System.EventHandler(this.startButton_Click);
             //
             // resetButton
             //
@@ -201,6 +202,7 @@
             this.resetButton.TabIndex = 22;
             this.resetButton.Text = "Reset";
             this.resetButton.UseVisualStyleBackColor = false;
+            this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             //
             // stopButton
             //
@@ -217,6 +219,12 @@
             this.stopButton.TabIndex = 21;
             this.stopButton.Text = "Stop";
             this.stopButton.UseVisualStyleBackColor = false;
+            this.stopButton.Click += new System.EventHandler(this.stopButton_Click);
+            //
+            // countDownTimer
+            //
+            this.countDownTimer.Interval = 1000;
+            this.countDownTimer.Tick += new System.EventHandler(this.countDownTimer_Tick);
             //
             // Timer
             //
