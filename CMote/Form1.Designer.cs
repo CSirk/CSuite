@@ -28,6 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Text = "Form1";
+        }
+
+        #endregion
+=======
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -55,6 +63,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
+>>>>>>> 7152a807a25f9ada60c40dab14bea7a9d253739b
     }
 }
 

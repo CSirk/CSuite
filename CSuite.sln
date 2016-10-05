@@ -13,7 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFit", "CFit\CFit.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSuite", "CSuite\CSuite.csproj", "{5EF5D58B-D536-4437-B163-CAA3E1688C6D}"
 EndProject
+<<<<<<< HEAD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMote", "CMote\CMote.csproj", "{931C7AA0-BF9B-4C3D-8D39-5B959DBDFCA3}"
+=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMote", "CMote\CMote.csproj", "{0755809D-A72B-4B79-A148-85F3343D69C4}"
+>>>>>>> 7152a807a25f9ada60c40dab14bea7a9d253739b
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +45,17 @@ Global
 		{5EF5D58B-D536-4437-B163-CAA3E1688C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF5D58B-D536-4437-B163-CAA3E1688C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF5D58B-D536-4437-B163-CAA3E1688C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+		{931C7AA0-BF9B-4C3D-8D39-5B959DBDFCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931C7AA0-BF9B-4C3D-8D39-5B959DBDFCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931C7AA0-BF9B-4C3D-8D39-5B959DBDFCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931C7AA0-BF9B-4C3D-8D39-5B959DBDFCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
 		{0755809D-A72B-4B79-A148-85F3343D69C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0755809D-A72B-4B79-A148-85F3343D69C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0755809D-A72B-4B79-A148-85F3343D69C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0755809D-A72B-4B79-A148-85F3343D69C4}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 7152a807a25f9ada60c40dab14bea7a9d253739b
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
