@@ -29,9 +29,13 @@ namespace CSuite
                 MenuItem cTimeStopWatch = new MenuItem("Stopwatch", new EventHandler(LaunchStopwatch));
                 MenuItem cTimeTimer = new MenuItem("Timer", new EventHandler(LaunchCTimeTimer));
 
-
-
                 cTime.MenuItems.AddRange(new MenuItem[] { cTimeStopWatch, cTimeTimer, cTimeCountDown, cTimeAlarm });
+
+
+                MenuItem cCalc = new MenuItem("CCalc", new EventHandler(LaunchCCalc));
+                MenuItem cCalcCalculator = new MenuItem("Calculator", new EventHandler(LaunchCCalc));
+
+                cCalc.MenuItems.AddRange(new MenuItem[] { cCalcCalculator });
 
                 MenuItem cMoney = new MenuItem("CMoney", new EventHandler(LaunchCMoney));
 
@@ -77,7 +81,8 @@ namespace CSuite
                 notifyIcon = new NotifyIcon();
                 notifyIcon.Icon = new Icon(@"csuite.ico");
 
-                notifyIcon.ContextMenu = new ContextMenu(new MenuItem[] { cAssist, cBase, cMail, cMoney, cMote, cTime, crypt10n, exit });
+                notifyIcon.ContextMenu = new ContextMenu(new MenuItem[] { cAssist, cCalc, cBase, cMail,
+                    cMoney, cMote, cTime, crypt10n, exit });
 
                 notifyIcon.Visible = true;
 
@@ -192,7 +197,8 @@ namespace CSuite
 
             private void LaunchCCalc(object sender, EventArgs e)
             {
-                throw new NotImplementedException();
+                var calculator = new CCal.Calculator();
+                calculator.Show();
             }
 
             private void LaunchCMoney(object sender, EventArgs e)

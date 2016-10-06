@@ -96,6 +96,10 @@
       <Project>{0326a318-e9c7-4609-b9a3-46921e82c201}</Project>
       <Name>CBase</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CCal\CCal.csproj">
+      <Project>{109874a4-e543-4ee9-a41d-1c0ee017acb5}</Project>
+      <Name>CCal</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CFit\CFit.csproj">
       <Project>{edf9d11c-81df-4758-a79e-4665f0f8e1a2}</Project>
       <Name>CFit</Name>
