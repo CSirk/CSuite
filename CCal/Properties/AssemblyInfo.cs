@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CMote")]
+[assembly: AssemblyTitle("CCal")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CMote")]
+[assembly: AssemblyProduct("CCal")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,11 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-<<<<<<< HEAD
-[assembly: Guid("931c7aa0-bf9b-4c3d-8d39-5b959dbdfca3")]
-=======
-[assembly: Guid("0755809d-a72b-4b79-a148-85f3343d69c4")]
->>>>>>> 7152a807a25f9ada60c40dab14bea7a9d253739b
+[assembly: Guid("109874a4-e543-4ee9-a41d-1c0ee017acb5")]
 
 // Version information for an assembly consists of the following four values:
 //
