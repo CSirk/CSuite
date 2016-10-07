@@ -33,7 +33,7 @@
             this.addButton = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.formulaRichTextBox = new System.Windows.Forms.RichTextBox();
             this.percentButton = new System.Windows.Forms.Button();
             this.decimalButton = new System.Windows.Forms.Button();
             this.divideButton = new System.Windows.Forms.Button();
@@ -95,14 +95,15 @@
             this.listBox1.Size = new System.Drawing.Size(141, 238);
             this.listBox1.TabIndex = 41;
             // 
-            // richTextBox1
+            // formulaRichTextBox
             // 
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(159, 12);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(254, 110);
-            this.richTextBox1.TabIndex = 40;
-            this.richTextBox1.Text = "";
+            this.formulaRichTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.formulaRichTextBox.Location = new System.Drawing.Point(159, 12);
+            this.formulaRichTextBox.Name = "formulaRichTextBox";
+            this.formulaRichTextBox.ReadOnly = true;
+            this.formulaRichTextBox.Size = new System.Drawing.Size(254, 110);
+            this.formulaRichTextBox.TabIndex = 40;
+            this.formulaRichTextBox.Text = "";
             // 
             // percentButton
             // 
@@ -114,6 +115,7 @@
             this.percentButton.TabIndex = 39;
             this.percentButton.Text = "%";
             this.percentButton.UseVisualStyleBackColor = false;
+            this.percentButton.Click += new System.EventHandler(this.percentButton_Click);
             // 
             // decimalButton
             // 
@@ -125,6 +127,7 @@
             this.decimalButton.TabIndex = 38;
             this.decimalButton.Text = ".";
             this.decimalButton.UseVisualStyleBackColor = false;
+            this.decimalButton.Click += new System.EventHandler(this.decimalButton_Click);
             // 
             // divideButton
             // 
@@ -136,6 +139,7 @@
             this.divideButton.TabIndex = 37;
             this.divideButton.Text = "/";
             this.divideButton.UseVisualStyleBackColor = false;
+            this.divideButton.Click += new System.EventHandler(this.divideButton_Click);
             // 
             // multiplyButton
             // 
@@ -147,6 +151,7 @@
             this.multiplyButton.TabIndex = 36;
             this.multiplyButton.Text = "*";
             this.multiplyButton.UseVisualStyleBackColor = false;
+            this.multiplyButton.Click += new System.EventHandler(this.multiplyButton_Click);
             // 
             // minusButton
             // 
@@ -158,6 +163,7 @@
             this.minusButton.TabIndex = 35;
             this.minusButton.Text = "-";
             this.minusButton.UseVisualStyleBackColor = false;
+            this.minusButton.Click += new System.EventHandler(this.minusButton_Click);
             // 
             // plusButton
             // 
@@ -169,6 +175,7 @@
             this.plusButton.TabIndex = 34;
             this.plusButton.Text = "+";
             this.plusButton.UseVisualStyleBackColor = false;
+            this.plusButton.Click += new System.EventHandler(this.plusButton_Click);
             // 
             // equalButton
             // 
@@ -180,6 +187,7 @@
             this.equalButton.TabIndex = 33;
             this.equalButton.Text = "=";
             this.equalButton.UseVisualStyleBackColor = false;
+            this.equalButton.Click += new System.EventHandler(this.equalButton_Click);
             // 
             // zeroButton
             // 
@@ -191,6 +199,7 @@
             this.zeroButton.TabIndex = 32;
             this.zeroButton.Text = "0";
             this.zeroButton.UseVisualStyleBackColor = false;
+            this.zeroButton.Click += new System.EventHandler(this.zeroButton_Click);
             // 
             // nineButton
             // 
@@ -202,6 +211,7 @@
             this.nineButton.TabIndex = 31;
             this.nineButton.Text = "9";
             this.nineButton.UseVisualStyleBackColor = false;
+            this.nineButton.Click += new System.EventHandler(this.nineButton_Click);
             // 
             // eightButton
             // 
@@ -213,6 +223,7 @@
             this.eightButton.TabIndex = 30;
             this.eightButton.Text = "8";
             this.eightButton.UseVisualStyleBackColor = false;
+            this.eightButton.Click += new System.EventHandler(this.eightButton_Click);
             // 
             // sevenButton
             // 
@@ -224,6 +235,7 @@
             this.sevenButton.TabIndex = 29;
             this.sevenButton.Text = "7";
             this.sevenButton.UseVisualStyleBackColor = false;
+            this.sevenButton.Click += new System.EventHandler(this.sevenButton_Click);
             // 
             // sixButton
             // 
@@ -235,6 +247,7 @@
             this.sixButton.TabIndex = 28;
             this.sixButton.Text = "6";
             this.sixButton.UseVisualStyleBackColor = false;
+            this.sixButton.Click += new System.EventHandler(this.sixButton_Click);
             // 
             // fiveButton
             // 
@@ -246,6 +259,7 @@
             this.fiveButton.TabIndex = 27;
             this.fiveButton.Text = "5";
             this.fiveButton.UseVisualStyleBackColor = false;
+            this.fiveButton.Click += new System.EventHandler(this.fiveButton_Click);
             // 
             // fourButton
             // 
@@ -257,6 +271,7 @@
             this.fourButton.TabIndex = 26;
             this.fourButton.Text = "4";
             this.fourButton.UseVisualStyleBackColor = false;
+            this.fourButton.Click += new System.EventHandler(this.fourButton_Click);
             // 
             // threeButton
             // 
@@ -268,6 +283,7 @@
             this.threeButton.TabIndex = 25;
             this.threeButton.Text = "3";
             this.threeButton.UseVisualStyleBackColor = false;
+            this.threeButton.Click += new System.EventHandler(this.threeButton_Click);
             // 
             // twoButton
             // 
@@ -279,6 +295,7 @@
             this.twoButton.TabIndex = 24;
             this.twoButton.Text = "2";
             this.twoButton.UseVisualStyleBackColor = false;
+            this.twoButton.Click += new System.EventHandler(this.twoButton_Click);
             // 
             // oneButton
             // 
@@ -290,6 +307,7 @@
             this.oneButton.TabIndex = 23;
             this.oneButton.Text = "1";
             this.oneButton.UseVisualStyleBackColor = false;
+            this.oneButton.Click += new System.EventHandler(this.oneButton_Click);
             // 
             // Calculator
             // 
@@ -301,7 +319,7 @@
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.formulaRichTextBox);
             this.Controls.Add(this.percentButton);
             this.Controls.Add(this.decimalButton);
             this.Controls.Add(this.divideButton);
@@ -333,7 +351,7 @@
         private System.Windows.Forms.Button addButton;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox formulaRichTextBox;
         private System.Windows.Forms.Button percentButton;
         private System.Windows.Forms.Button decimalButton;
         private System.Windows.Forms.Button divideButton;
