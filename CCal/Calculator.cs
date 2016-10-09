@@ -134,5 +134,13 @@ namespace CCal
                 return 0;
             }
         }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+            if (formulaRichTextBox.Text != "" && variableNameTextBox.Text != "")
+            {
+                memoryListBox.Items.Add(variableNameTextBox.Text + formulaRichTextBox.Text);
+            }
+        }
     }
 }

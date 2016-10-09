@@ -31,8 +31,8 @@
             this.useButton = new System.Windows.Forms.Button();
             this.deleteButton = new System.Windows.Forms.Button();
             this.addButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.variableNameTextBox = new System.Windows.Forms.TextBox();
+            this.memoryListBox = new System.Windows.Forms.ListBox();
             this.formulaRichTextBox = new System.Windows.Forms.RichTextBox();
             this.percentButton = new System.Windows.Forms.Button();
             this.decimalButton = new System.Windows.Forms.Button();
@@ -79,21 +79,22 @@
             this.addButton.TabIndex = 43;
             this.addButton.Text = "Add";
             this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
-            // textBox1
+            // variableNameTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 253);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 20);
-            this.textBox1.TabIndex = 42;
+            this.variableNameTextBox.Location = new System.Drawing.Point(12, 253);
+            this.variableNameTextBox.Name = "variableNameTextBox";
+            this.variableNameTextBox.Size = new System.Drawing.Size(141, 20);
+            this.variableNameTextBox.TabIndex = 42;
             // 
-            // listBox1
+            // memoryListBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(141, 238);
-            this.listBox1.TabIndex = 41;
+            this.memoryListBox.FormattingEnabled = true;
+            this.memoryListBox.Location = new System.Drawing.Point(12, 12);
+            this.memoryListBox.Name = "memoryListBox";
+            this.memoryListBox.Size = new System.Drawing.Size(141, 238);
+            this.memoryListBox.TabIndex = 41;
             // 
             // formulaRichTextBox
             // 
@@ -317,8 +318,8 @@
             this.Controls.Add(this.useButton);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.addButton);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.variableNameTextBox);
+            this.Controls.Add(this.memoryListBox);
             this.Controls.Add(this.formulaRichTextBox);
             this.Controls.Add(this.percentButton);
             this.Controls.Add(this.decimalButton);
@@ -349,8 +350,8 @@
         private System.Windows.Forms.Button useButton;
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.Button addButton;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox variableNameTextBox;
+        private System.Windows.Forms.ListBox memoryListBox;
         private System.Windows.Forms.RichTextBox formulaRichTextBox;
         private System.Windows.Forms.Button percentButton;
         private System.Windows.Forms.Button decimalButton;
