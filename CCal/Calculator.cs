@@ -142,5 +142,10 @@ namespace CCal
                 memoryListBox.Items.Add(variableNameTextBox.Text + formulaRichTextBox.Text);
             }
         }
+
+        private void useButton_Click(object sender, EventArgs e)
+        {
+            formulaRichTextBox.Text = memoryListBox.SelectedItem.ToString();
+        }
     }
 }
