@@ -61,6 +61,7 @@
             this.useButton.TabIndex = 45;
             this.useButton.Text = "Use";
             this.useButton.UseVisualStyleBackColor = true;
+            this.useButton.Click += new System.EventHandler(this.useButton_Click);
             // 
             // deleteButton
             // 
