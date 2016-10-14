@@ -147,5 +147,20 @@ namespace CCal
         {
             formulaRichTextBox.Text = memoryListBox.SelectedItem.ToString();
         }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            formulaRichTextBox.Clear();
+        }
+
+        private void eraseButton_Click(object sender, EventArgs e)
+        {
+            if (formulaRichTextBox.Text.Length > 0)
+            {
+                var newFormulaText = formulaRichTextBox.Text.Remove(formulaRichTextBox.Text.Length - 1);
+                formulaRichTextBox.Text = newFormulaText;
+            }
+
+        }
     }
 }
