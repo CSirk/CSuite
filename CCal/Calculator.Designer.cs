@@ -51,6 +51,8 @@
             this.threeButton = new System.Windows.Forms.Button();
             this.twoButton = new System.Windows.Forms.Button();
             this.oneButton = new System.Windows.Forms.Button();
+            this.clearButton = new System.Windows.Forms.Button();
+            this.eraseButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // useButton
@@ -311,11 +313,37 @@
             this.oneButton.UseVisualStyleBackColor = false;
             this.oneButton.Click += new System.EventHandler(this.oneButton_Click);
             // 
+            // clearButton
+            // 
+            this.clearButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.clearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearButton.Location = new System.Drawing.Point(419, 218);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(46, 84);
+            this.clearButton.TabIndex = 46;
+            this.clearButton.Text = "C";
+            this.clearButton.UseVisualStyleBackColor = false;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            // 
+            // eraseButton
+            // 
+            this.eraseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.eraseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eraseButton.Location = new System.Drawing.Point(419, 128);
+            this.eraseButton.Name = "eraseButton";
+            this.eraseButton.Size = new System.Drawing.Size(46, 84);
+            this.eraseButton.TabIndex = 47;
+            this.eraseButton.Text = "<";
+            this.eraseButton.UseVisualStyleBackColor = false;
+            this.eraseButton.Click += new System.EventHandler(this.eraseButton_Click);
+            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 307);
+            this.ClientSize = new System.Drawing.Size(492, 307);
+            this.Controls.Add(this.eraseButton);
+            this.Controls.Add(this.clearButton);
             this.Controls.Add(this.useButton);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.addButton);
@@ -371,6 +399,8 @@
         private System.Windows.Forms.Button threeButton;
         private System.Windows.Forms.Button twoButton;
         private System.Windows.Forms.Button oneButton;
+        private System.Windows.Forms.Button clearButton;
+        private System.Windows.Forms.Button eraseButton;
     }
 }
 
