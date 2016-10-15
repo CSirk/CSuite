@@ -71,22 +71,26 @@ namespace CCal
 
         private void plusButton_Click(object sender, EventArgs e)
         {
-            formulaRichTextBox.Text += "+";
+            if (ValidateFormulaDoesNotContainOperators())
+                formulaRichTextBox.Text += "+";
         }
 
         private void minusButton_Click(object sender, EventArgs e)
         {
-            formulaRichTextBox.Text += "-";
+            if (ValidateFormulaDoesNotContainOperators())
+                formulaRichTextBox.Text += "-";
         }
 
         private void multiplyButton_Click(object sender, EventArgs e)
         {
-            formulaRichTextBox.Text += "*";
+            if (ValidateFormulaDoesNotContainOperators())
+                formulaRichTextBox.Text += "*";
         }
 
         private void divideButton_Click(object sender, EventArgs e)
         {
-            formulaRichTextBox.Text += "/";
+            if (ValidateFormulaDoesNotContainOperators())
+                formulaRichTextBox.Text += "/";
         }
 
         private void percentButton_Click(object sender, EventArgs e)
@@ -161,6 +165,19 @@ namespace CCal
                 formulaRichTextBox.Text = newFormulaText;
             }
 
+        }
+
+        private bool ValidateFormulaDoesNotContainOperators()
+        {
+            if(!formulaRichTextBox.Text.Contains("+")
+                && !formulaRichTextBox.Text.Contains("-")
+                && !formulaRichTextBox.Text.Contains("*")
+                && !formulaRichTextBox.Text.Contains("/"))
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }
